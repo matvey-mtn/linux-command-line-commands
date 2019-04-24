@@ -1,0 +1,39 @@
+./examples/find/java/CarBuilderImpl.java:1:class CarBuilderImpl implements CarBuilder {
+./examples/find/java/Singleton.java:1:public final class Singleton {
+./examples/find/java/RangeIteratorExample.java:4:public class RangeIteratorExample {
+./examples/find/java/CarBuildDirector.java:1:public class CarBuildDirector {
+./examples/find/java/HelloWorld.java:1:public class HelloWorld {
+./examples/find/java/Car.java:4:class Car {
+./examples/find/mix/HelloWorld.java:1:public class HelloWorld {
+./examples/find/mix/Car.java:4:class Car {
+./examples/find/java/CarBuilderImpl.java:4:    public CarBuilderImpl() {
+./examples/find/java/CarBuilderImpl.java:9:    public Car build() {
+./examples/find/java/CarBuilderImpl.java:17:    public CarBuilder setColor(final String color) {
+./examples/find/java/CarBuilderImpl.java:23:    public CarBuilder setWheels(final int wheels) {
+./examples/find/java/Singleton.java:1:public final class Singleton {
+./examples/find/java/Singleton.java:7:    public static Singleton getInstance() {
+./examples/find/java/RangeIteratorExample.java:4:public class RangeIteratorExample {
+./examples/find/java/RangeIteratorExample.java:5:    public static Iterator<Integer> range(int start, int end) {
+./examples/find/java/RangeIteratorExample.java:10:            public boolean hasNext() {
+./examples/find/java/RangeIteratorExample.java:15:            public Integer next() {
+./examples/find/java/RangeIteratorExample.java:24:    public static void main(String[] args) {
+./examples/find/java/CarBuildDirector.java:1:public class CarBuildDirector {
+./examples/find/java/CarBuildDirector.java:4:    public CarBuildDirector(final CarBuilder builder) {
+./examples/find/java/CarBuildDirector.java:8:    public Car construct() {
+./examples/find/java/CarBuildDirector.java:14:    public static void main(final String[] arguments) {
+./examples/find/java/HelloWorld.java:1:public class HelloWorld {
+./examples/find/java/HelloWorld.java:3:    public static void main(String[] args) {
+./examples/find/java/Car.java:8:    public Car() {
+./examples/find/java/Car.java:11:    public String getColor() {
+./examples/find/java/Car.java:15:    public void setColor(final String color) {
+./examples/find/java/Car.java:19:    public int getWheels() {
+./examples/find/java/Car.java:23:    public void setWheels(final int wheels) {
+./examples/find/java/Car.java:28:    public String toString() {
+./examples/find/mix/HelloWorld.java:1:public class HelloWorld {
+./examples/find/mix/HelloWorld.java:3:    public static void main(String[] args) {
+./examples/find/mix/Car.java:8:    public Car() {
+./examples/find/mix/Car.java:11:    public String getColor() {
+./examples/find/mix/Car.java:15:    public void setColor(final String color) {
+./examples/find/mix/Car.java:19:    public int getWheels() {
+./examples/find/mix/Car.java:23:    public void setWheels(final int wheels) {
+./examples/find/mix/Car.java:28:    public String toString() {

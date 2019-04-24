@@ -1,0 +1,41 @@
+ the apple of discord: emacs vs vi ✔ 
+ shortcuts (ctrl-a, ctrl-e, ctrl-u + ctrl-y, ctrl-k + ctrl-y, ctrl-w, option/alt + right/left)   ✔ 
+ ctrl-x + ctrl-e  ✔  
+ fc  ✔ 
+ navigation  ✔ 
+ open . / nautilus .     ✔ 
+ drag-n-drop    ✔ 
+ history    ✔ 
+ date / TZ=< > date/ date +"%Z %z"    ✔ 
+ touch  ✔ 
+ ls and ls -l  ✔ 
+ understanding ls -l  ✔ 
+ chmod, chmod +x, chown https://en.wikipedia.org/wiki/Chmod  ✔ 
+ repeat previous command (run execution in background ctl-z + bg; bring to foreground fg)   ✔ 
+https://openlegacy.atlassian.net/wiki/x/ZYDXBQ
+ going wild with wildcards *,?,[  ✔  ]
+ vim (basics, navigation, search, replace, explore)
+ https://www.openvim.com/ - interactive vim tutorial
+ cat, tac, nano
+ less (options: -i case-sensitive/insensitive; -N toggle line numbers; -S toggle line wrapping; +F follow log) 
+
+ command chaining:
+   * sequence ;  ✔ 
+   * parallel execution &  ✔ 
+   * conditional exection && and || ( || executed only if previous command executed successfuly) 
+   * pipelines | and |&  ✔ 
+   * input redirection <,<<, <<< (file, document DELIMITER, STRING)
+   * output redirection >, >> ( 2>, 2>> stderr; &>, &>> stderr and stdout) 
+   (source: https://www.luxoft-training.com/news/bash-operators-in-linux/)
+
+ find / grep  
+ sed
+ awk
+ 
+ Rage Mode
+ =========
+
+ ssh -L <port>:127.0.0.1:<port> <user>@<ip> -N
+ mkdir -p folder/{sub1,sub2}/{sub1,sub2,sub3}
+ tee -a log (pipelines) example: docker ps | awk {'print $1'} | tee -a log | grep bd
+ disown -a && exit
